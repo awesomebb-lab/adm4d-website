@@ -154,6 +154,11 @@ footer .copy{grid-column:1/-1;text-align:center;padding:24px 12px 12px;font:400 
 footer .copy em{font-style:italic}
 @media (max-width:900px){.about h2,.about .lead,.about .photo,.card,footer .brand,footer .links,footer .mark,footer .meta,footer .copy{grid-column:1/-1}footer .links{margin-top:24px}}
 
+
+/* menú móvil: oculto por defecto (se muestra solo bajo 760px) */
+.nav .menu{display:none}
+.navmenu{display:none}
+
 /* ================= MÓVIL ================= */
 @media (max-width:760px){
   .nav .last{display:none}
@@ -231,6 +236,15 @@ footer .copy em{font-style:italic}
   .book{grid-template-columns:1fr}
   .book input{padding:14px 0;font-size:16px}
   .book .go{padding:18px 16px}
+
+
+  /* zonas táctiles mínimas 44px */
+  .more{padding-top:14px;padding-bottom:14px;min-height:44px;align-items:center}
+  .cal .mh button{width:44px;height:44px;font-size:18px}
+  footer .links a{display:block;padding:14px 0}
+  footer .links li+li{margin-top:0}
+  footer .meta a{padding:14px 10px}
+  .values .more{margin-top:32px}
 
   /* Footer */
   footer{padding-top:var(--gap)}

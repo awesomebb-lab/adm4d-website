@@ -54,6 +54,8 @@
 .artmeta{grid-column:2/5;padding:0 12px;margin-top:24px;font-size:var(--t15);color:var(--mist);display:flex;gap:20px;flex-wrap:wrap}
 
 @media (max-width:760px){
+  .art .side li a{display:block;padding:6px 0}
+  .faq h3{margin-top:28px}
   .bhead{padding:40px 0 32px}
   .bhead h1,.bhead p,.bhead .label{grid-column:1/-1!important;padding:0 10px}
   .post{grid-column:1/-1!important;grid-template-columns:1fr;padding:24px 0}

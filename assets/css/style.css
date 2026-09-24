@@ -153,4 +153,102 @@ footer .meta a:nth-child(2),footer .meta a:nth-child(4){grid-column:3}
 footer .copy{grid-column:1/-1;text-align:center;padding:24px 12px 12px;font:400 var(--t15) var(--serif);text-transform:uppercase;background:var(--canvas);position:relative;z-index:2}
 footer .copy em{font-style:italic}
 @media (max-width:900px){.about h2,.about .lead,.about .photo,.card,footer .brand,footer .links,footer .mark,footer .meta,footer .copy{grid-column:1/-1}footer .links{margin-top:24px}}
+
+/* ================= MÓVIL ================= */
+@media (max-width:760px){
+  .nav .last{display:none}
+  :root{--cols:2;--gap:56px;--t52:clamp(30px,7.6vw,40px);--t32:26px;--t18:17px}
+  html,body{overflow-x:hidden}
+  .page{padding:0 6px}
+  .rails{inset:0 6px}
+
+  /* Nav: marca + botón menú; el resto se despliega */
+  .nav{display:flex;justify-content:space-between;height:52px;border-bottom:var(--rail)}
+  .sticky:not(.on){display:none}
+  .sticky.on{display:flex}
+  .sticky .menu{display:block}
+  .nav>*{padding:0 10px}
+  .nav ul{display:none}
+  .nav .cta{display:none}
+  .nav .menu{display:block;background:none;border:0;font:600 var(--t15) var(--sans);text-transform:uppercase;letter-spacing:.4px;padding:0 10px}
+  .navmenu{display:none;position:fixed;inset:52px 0 0;z-index:40;background:var(--canvas);padding:24px 16px;flex-direction:column;gap:4px}
+  .navmenu.on{display:flex}
+  .navmenu a{font:400 30px var(--serif);text-transform:uppercase;padding:14px 0;border-bottom:var(--rail)}
+  body.locked{overflow:hidden}
+
+  /* Hero: logo completo en 3+2, luego una foto grande */
+  .shapes{grid-template-columns:repeat(6,1fr)}
+  .shapes .cell,.shapes .cell:nth-child(n+5){aspect-ratio:1/1;display:block;grid-column:span 2}
+  .shapes .cell:nth-child(4){grid-column:2/4}
+  .shapes .cell:nth-child(5){grid-column:4/6}
+  .photos{grid-template-columns:1fr}
+  .photos .cell{height:62vh;min-height:360px;display:block}
+  .photos .cell:nth-child(n+2){display:none}
+  .photos .cell:nth-child(5){display:block;height:auto;min-height:0}
+  .photos .cell:nth-child(5) .img{display:none}
+  .photos .cell:nth-child(5) .cta{position:static;padding:20px 16px;font-size:16px}
+
+  /* Secciones: una sola columna, respiración uniforme */
+  .section{padding:var(--gap) 0}
+  .section .label{margin-bottom:24px;padding:0 10px}
+  .section h2,.section .lead{grid-column:1/-1!important;padding:0 10px;max-width:none}
+  .grid>*{padding-left:10px;padding-right:10px}
+
+  /* Servicios: apilados, foto ancha */
+  .services{margin-top:40px}
+  .services .svc{grid-column:1/-1!important;border-top:var(--rail);padding-top:24px;margin-top:24px}
+  .svc .n{margin-bottom:8px}
+  .svc .t{min-height:0;margin-bottom:20px}
+  .svc .img,.svc:nth-child(odd) .img,.svc:nth-child(even) .img{width:100%;aspect-ratio:16/10;margin-bottom:20px}
+  .svc p{max-width:none}
+  .more{grid-column:1/-1!important;margin-top:40px}
+
+  /* Proyectos: apilados con foto grande */
+  .proj{grid-column:1/-1!important;margin-bottom:40px}
+  .proj .img{aspect-ratio:4/3;margin-bottom:16px}
+  .proj .cap{grid-template-columns:52px 1fr;font-size:16px}
+
+  /* Banda de valores */
+  .band,.band .grid{min-height:0}
+  .band .frame{grid-column:1/-1;margin:48px 10px;aspect-ratio:1/1.1}
+  .band .frame::before{inset:8% 10%}
+  .values .v{grid-column:1/-1!important;padding:20px 10px 32px}
+  .values .v small{margin-bottom:24px;max-width:none}
+  .values .v h3{max-width:none}
+
+  /* Futuro */
+  .future .lead,.future .facts{grid-column:1/-1!important;margin-top:32px}
+  .future .facts{margin-top:40px}
+  .future .wide{grid-column:1/-1!important;margin:40px 0 0;aspect-ratio:16/10}
+
+  /* Nosotros + calendario */
+  .about .lead{margin-top:24px}
+  .card{grid-column:1/-1!important;margin:40px 0 0;padding:20px 16px}
+  .card h3{margin-bottom:16px}
+  .cal .days button{padding:12px 0;font-size:16px}
+  .slots{grid-template-columns:repeat(2,1fr)}
+  .slots button{padding:14px 0;font-size:15px}
+  .book{grid-template-columns:1fr}
+  .book input{padding:14px 0;font-size:16px}
+  .book .go{padding:18px 16px}
+
+  /* Footer */
+  footer{padding-top:var(--gap)}
+  footer .brand,footer .links,footer .mark,footer .meta,footer .copy{grid-column:1/-1!important}
+  footer .links{margin-top:24px}
+  footer .links li+li{margin-top:14px}
+  footer .mark{margin-top:48px;grid-template-columns:repeat(3,1fr)}
+  footer .meta{grid-template-columns:1fr 1fr;margin-top:32px}
+  footer .copy{padding-bottom:24px}
+}
+@media (max-width:760px) and (orientation:landscape){
+  .photos .cell{height:80vh}
+}
+/* toques: sin hover pegajoso */
+@media (hover:none){
+  .btn:hover::after,.cta:hover{background:inherit;transform:none}
+  .proj:hover .img div{transform:none}
+  .svc:hover .img{filter:grayscale(1)}
+}
+
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}

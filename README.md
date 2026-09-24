@@ -59,3 +59,26 @@ carpeta basta, no hay paso de compilación.
 - Retícula de 5 columnas con líneas de 1px visibles en toda la página.
 - Sin sombras, sin degradados, sin esquinas redondeadas (salvo círculos).
 - Tema claro fijo.
+
+## Blog
+
+```
+blog/index.html                        listado de artículos
+blog/<slug>/index.html                 un artículo por carpeta
+assets/css/blog.css                    estilos del blog (sin retícula vertical)
+sitemap.xml · robots.txt · llms.txt    SEO y buscadores de IA
+```
+
+Para publicar un artículo nuevo:
+
+1. Copiar `blog/costo-construccion-panama/` con un nombre descriptivo en minúsculas
+   y guiones. Esa carpeta es la URL.
+2. Editar en el `<head>`: `<title>`, `description`, `canonical`, Open Graph y los
+   dos bloques `application/ld+json` (Article y FAQPage).
+3. Escribir el cuerpo. Regla clave: el bloque `.answer` del inicio responde la
+   pregunta en dos o tres líneas; los `<h2>` van redactados como preguntas.
+   Las preguntas del `FAQPage` deben coincidir con las del bloque `.faq`.
+4. Agregar la entrada en `blog/index.html` y la URL en `sitemap.xml` y `llms.txt`.
+
+Los datos del artículo de ejemplo (precios por m², plazos de permisos) son de
+referencia y deben reemplazarse por cifras propias antes de publicar.

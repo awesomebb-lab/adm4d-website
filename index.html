@@ -10,9 +10,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <meta property="og:title" content="ADM4D — Diseño y construcción en Panamá">
-<meta property="og:description" content="Diseñamos y construimos residencias, comercios y naves industriales. Un solo equipo del primer boceto a la entrega.">
+<meta property="og:description" content="Diseñamos y construimos residencias, comercios y naves industriales en Panamá.">
 <meta property="og:image" content="assets/img/hero-residencia.jpg">
-<meta property="og:type" content="website">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -23,9 +22,13 @@
     <div class="brand">ADM4D<em>(PA)</em></div>
     <a href="#servicios">Servicios</a>
     <a href="#proyectos">Proyectos</a>
-    <a href="#futuro">Futuro</a>
+    <a href="blog/">Blog</a>
     <a class="last" href="#contacto">Contacto</a>
+    <button class="menu" id="menuBtn" aria-expanded="false" aria-controls="navmenu">Menú</button>
   </nav>
+  <div class="navmenu" id="navmenu">
+    <a href="#servicios">Servicios</a><a href="#proyectos">Proyectos</a><a href="#futuro">Futuro</a><a href="blog/">Blog</a><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a>
+  </div>
 
   <header class="hero">
     <div class="grid shapes" aria-label="ADM4D">
@@ -45,8 +48,7 @@
   </header>
 
   <nav class="grid nav sticky" id="sticky" aria-hidden="true">
-    <div class="brand">ADM4D<em>(PA)</em></div><a href="#servicios">Servicios</a><a href="#proyectos">Proyectos</a><a href="#futuro">Futuro</a><a class="last" href="#contacto">Contacto</a>
-  </nav>
+    <div class="brand">ADM4D<em>(PA)</em></div><a href="#servicios">Servicios</a><a href="#proyectos">Proyectos</a><a href="blog/">Blog</a><a class="last" href="#contacto">Contacto</a></nav>
 
   <section class="section" id="servicios">
     <div class="grid">
@@ -125,7 +127,7 @@
 
   <footer class="grid">
     <p class="brand">ADM4D<em>(PA)</em></p>
-    <ul class="links"><li><a href="#top">Inicio</a></li><li><a href="#servicios">Servicios</a></li><li><a href="#proyectos">Proyectos</a></li><li><a href="#futuro">Futuro</a></li><li><a href="#contacto">Contacto</a></li></ul>
+    <ul class="links"><li><a href="#top">Inicio</a></li><li><a href="#servicios">Servicios</a></li><li><a href="#proyectos">Proyectos</a></li><li><a href="#futuro">Futuro</a></li><li><a href="blog/">Blog</a></li><li><a href="#contacto">Contacto</a></li></ul>
     <div class="mark" aria-hidden="true">
       <div><svg viewBox="0 0 260 260" preserveAspectRatio="none"><path d="M0 260V130C0 58 58 0 130 0s130 58 130 130v130z"/></svg></div>
       <div><svg viewBox="0 0 260 260" preserveAspectRatio="none"><path d="M0 0h130a130 130 0 0 1 0 260H0z"/></svg></div>

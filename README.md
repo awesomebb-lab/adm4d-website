@@ -1,12 +1,13 @@
 # ADM4D — sitio web
 
-Sitio de una sola página para ADM4D (diseño y construcción, Panamá).
+Sitio de una sola página para ADM4D (obra civil industrial, Panamá).
 HTML, CSS y JavaScript puros. Sin dependencias, sin build, sin framework.
 
 ## Estructura
 
 ```
-index.html                 página completa
+index.html                 portada
+proyectos/index.html       las nueve obras con todas sus fotos
 assets/css/style.css       estilos y tokens de diseño
 assets/js/main.js          menú fijo y calendario de reservas
 assets/img/                fotografías, logo y favicon
@@ -44,8 +45,9 @@ carpeta basta, no hay paso de compilación.
 
 ## Qué falta reemplazar
 
-- `assets/img/*.jpg` — fotos de archivo temporales; sustituir por obras reales
-  conservando el mismo nombre de archivo y no hay que tocar el HTML.
+- `assets/img/*.jpg` — fotografías reales de obra, recortadas desde los originales
+  en Google Drive (Adm 4D/Imagenes). Para cambiar una, reemplace el archivo
+  conservando el mismo nombre; no hay que tocar el HTML.
 - Correo `hola@adm4d.com` y teléfono `+507 6000-0000` en `index.html`.
 - Nombres, años y metros de los cuatro proyectos.
 - Enlaces de Instagram y LinkedIn en el pie.
@@ -82,3 +84,9 @@ Para publicar un artículo nuevo:
 
 Los datos del artículo de ejemplo (precios por m², plazos de permisos) son de
 referencia y deben reemplazarse por cifras propias antes de publicar.
+
+## Reemplazar fotos
+
+Ver `guia-imagenes.png`: miniatura de cada foto actual, dónde aparece y el tamaño
+que conviene subir. Basta con reemplazar el archivo en `assets/img/` conservando
+el mismo nombre; no hay que tocar el HTML.

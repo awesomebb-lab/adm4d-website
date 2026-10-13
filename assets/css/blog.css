@@ -53,6 +53,28 @@
 .cta-box a:hover{background:var(--ink);color:var(--canvas)}
 .artmeta{grid-column:2/5;padding:0 12px;margin-top:24px;font-size:var(--t15);color:var(--mist);display:flex;gap:20px;flex-wrap:wrap}
 
+
+/* figuras dentro del artículo */
+.art .body figure{margin:40px 0 44px}
+.art .body figure img{width:100%;display:block;filter:contrast(.88) saturate(.75) sepia(.08) brightness(.95)}
+.art .body figure figcaption{margin-top:12px;font-size:var(--t15);color:var(--mist);line-height:1.4;max-width:46ch}
+.art .body ol{margin:0 0 20px 0;padding-left:20px;max-width:46ch}
+.art .body ol li{font-size:var(--t18);line-height:1.6;color:var(--graphite);margin-bottom:10px}
+.aviso{margin:40px 0 0;padding:20px;background:var(--linen);font-size:var(--t15);line-height:1.5;color:var(--graphite);max-width:46ch}
+.aviso b{color:var(--ink);font-weight:600}
+
+/* bloque de datos de obra */
+.datos{margin:48px 0 8px;border-top:1px solid var(--ink)}
+.datos h3{font:600 var(--t15) var(--sans);text-transform:uppercase;letter-spacing:1px;margin:20px 0 4px;color:var(--ink)}
+.datos dl{margin:0}
+.datos dl>div{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:baseline;padding:12px 0;border-bottom:var(--rail)}
+.datos dt{font-size:var(--t15);color:var(--graphite)}
+.datos dd{margin:0;font:400 var(--t18) var(--serif);color:var(--ink);text-align:right;white-space:nowrap}
+.datos .pie{margin-top:12px;font-size:13px;color:var(--mist);line-height:1.4}
+@media (max-width:760px){.datos{margin:32px 0 8px}.datos dd{font-size:17px}}
+
+@media (max-width:760px){.art .body figure{margin:28px 0 32px}.art .body figure figcaption,.art .body ol,.aviso{max-width:none}}
+
 @media (max-width:760px){
   .art .side li a{display:block;padding:6px 0}
   .faq h3{margin-top:28px}

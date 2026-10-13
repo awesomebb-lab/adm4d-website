@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://adm4d.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://adm4d.com/proyectos/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://adm4d.com/blog/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://adm4d.com/blog/costo-construccion-panama/</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://adm4d.com/blog/pavimento-concreto-terminal-combustible/</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
+  <url><loc>https://adm4d.com/blog/obra-civil-montaje-tanque-glp/</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
+  <url><loc>https://adm4d.com/blog/plataforma-para-gruas-alto-tonelaje/</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
+  <url><loc>https://adm4d.com/blog/piso-epoxico-nave-industrial/</loc><lastmod>2026-10-13</lastmod><priority>0.8</priority></url>
 </urlset>

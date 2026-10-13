@@ -1,17 +1,46 @@
 # ADM4D
 
-> Firma panameña de diseño y construcción. Arquitectura, construcción civil,
-> remodelación y gerencia de proyecto en Colón y Ciudad de Panamá, con un solo
-> equipo responsable desde el anteproyecto hasta la entrega.
+> Firma panameña de obra civil industrial. Construimos y adecuamos la
+> infraestructura de plantas de gas, terminales de combustible, sistemas de
+> tratamiento de agua y naves de producción, en Colón, Ciudad de Panamá y
+> Panamá Oeste, trabajando dentro de instalaciones en operación.
 
 ## Servicios
-- Arquitectura: anteproyecto, planos constructivos y renders coordinados con ingenierías.
-- Construcción civil: residencias, comercios y naves industriales con presupuesto cerrado.
-- Remodelación y ampliación sobre edificaciones existentes.
-- Gerencia de proyecto: permisos, subcontratistas y control de costos.
+- Obra civil industrial: galeras, naves de proceso y edificios de planta — fundaciones, estructura metálica, cerramiento y acabados industriales.
+- Pavimentos y losas de concreto: patios de maniobra, vías internas y losas de alta carga para tanques, grúas y tránsito de cisternas.
+- Movimiento de tierra y estabilización de suelos: corte, relleno, compactación y mejoramiento para plataformas de equipo crítico.
+- Montajes e instalaciones: tanques de GLP, sistemas de tratamiento de agua y equipos de proceso, con su obra civil asociada.
 
-## Blog
-- [Cuánto cuesta construir una casa en Panamá en 2026](https://adm4d.com/blog/costo-construccion-panama/): rangos de 650 a 1.400 USD/m² según acabado, reparto por partidas, costos ocultos y plazos de permisos.
+## Datos de capacidad
+- Rendimiento de vaciado de concreto: 80 a 120 m² por jornada con cuadrilla estándar.
+- Diez años de experiencia en obra civil industrial en Panamá.
+- La mayoría de las obras se entregan antes de la fecha comprometida; el factor que más desplaza una entrega es el flujo de caja del cliente, no la ejecución.
+
+## Diferenciadores
+- Un solo responsable técnico: ingeniería, obra y montaje bajo un mismo contrato.
+- Presupuesto cerrado por partidas, definido antes de movilizar.
+- Obra dentro de instalaciones en operación, bajo los permisos y procedimientos de seguridad del cliente.
+- Garantía estructural y de acabados por escrito en cada entrega.
+- Levantamiento de avance con dron y tablero digital semanal para el equipo del cliente.
+
+## Proyectos ejecutados
+Página con fotografías de cada obra: https://adm4d.com/proyectos/
+
+- Petroport: pavimentación en concreto del patio de maniobras de una terminal de combustible. Cinco sectores, nueve meses, sin interrumpir el despacho. Losa de 20 cm, concreto de 4 000 psi, apertura a tránsito a los 28 días.
+- Planta de gas: plataforma y edificios.
+- GNL: patio de carga y losas.
+- Tropigas: muro de contención de 7 m con geomembrana y montaje de un tanque de GLP de 10 000 galones; 20 días de obra civil antes del izaje.
+- Estabilización de suelos: cinco plataformas de trabajo en dos meses, con geocelda de 20 cm rellena de matacán y capa base, para evitar el hundimiento de equipos de construcción.
+- Bambito: nave industrial de 800 m² con cubierta a dos aguas, losa de 20 cm en concreto de 4 000 psi, muro perimetral para andén a nivel de carga y piso epóxico aplicado a los 45 días del vaciado.
+- La Cholita: planta de producción.
+- Tratamiento de agua: montaje de sistema.
+- Trenco: obra comercial.
+
+## Notas técnicas
+- [Pavimentar el patio de una terminal de combustible sin detener el despacho](https://adm4d.com/blog/pavimento-concreto-terminal-combustible/): sectorización y vaciado por paños alternos, permisos de trabajo y trabajo en caliente para el aserrado de juntas, secuencia constructiva por sector, y apertura a tránsito definida por módulo de rotura y no por calendario.
+- [Montaje de un tanque de GLP: la obra civil que va antes de la grúa](https://adm4d.com/blog/obra-civil-montaje-tanque-glp/): ubicación según distancias de NFPA 58, muro de contención con geomembrana y drenaje de trasdós, cama de apoyo y silletas niveladas entre sí, plan de izaje por capacidad al radio de trabajo.
+- [Qué exige una plataforma para grúas de alto tonelaje](https://adm4d.com/blog/plataforma-para-gruas-alto-tonelaje/): el dato de diseño es la reacción máxima por estabilizador y no el peso total de la grúa; sustitución de suelo, geotextil de separación frente a geomalla de refuerzo, y control por densidad y placa de carga.
+- [Piso epóxico en nave industrial: lo que decide el resultado está en la losa](https://adm4d.com/blog/piso-epoxico-nave-industrial/): medición de humedad por cloruro de calcio o sonda de humedad relativa, granallado frente a ataque ácido, perfil de anclaje ICRI y por qué las juntas de contracción se respetan en lugar de cubrirse.
 
 ## Contacto
 - Correo: hola@adm4d.com

@@ -1,0 +1,54 @@
+/* ===== Página de proyectos ===== */
+.phead{padding:var(--gap) 0 56px}
+.phead .label{grid-column:2/3;padding:0 12px;margin-bottom:24px;font-size:var(--t15);font-weight:600;text-transform:uppercase;letter-spacing:1px;display:flex;align-items:center;gap:10px}
+.phead .label::before{content:"";width:6px;height:6px;border-radius:9999px;background:var(--accent)}
+.phead h1{grid-column:2/5;padding:0 12px;font:400 var(--t74)/1 var(--serif);letter-spacing:-.005em;max-width:14ch}
+.phead .lead{grid-column:2/4;padding:0 12px;margin-top:32px;font-size:var(--t18);line-height:1.45;color:var(--graphite);max-width:46ch}
+
+/* índice */
+.indice{grid-column:1/6;margin-top:var(--gap);border-top:1px solid var(--ink);display:grid;grid-template-columns:repeat(5,1fr)}
+.indice a{display:flex;align-items:baseline;gap:12px;padding:14px 12px;border-bottom:var(--rail);font-size:var(--t15);text-transform:uppercase;letter-spacing:.4px}
+.indice a span{color:var(--mist);font-size:13px;min-width:18px}
+.indice a:hover{background:var(--linen)}
+
+/* una obra */
+.obra{padding:var(--gap) 0 0;scroll-margin-top:24px}
+.obra+.obra{border-top:1px solid var(--ash)}
+.obra .num{grid-column:1/2;padding:0 12px;font:400 var(--t52)/1 var(--serif);color:var(--stone)}
+.obra .t{grid-column:2/5;padding:0 12px}
+.obra .tag{display:inline-flex;align-items:center;gap:8px;font-size:var(--t15);font-weight:500;text-transform:uppercase;letter-spacing:1px;margin-bottom:20px}
+.obra .tag::before{content:"";width:6px;height:6px;border-radius:9999px;background:var(--accent)}
+.obra h2{font:400 var(--t52)/1.05 var(--serif);max-width:18ch;margin-bottom:28px}
+.obra .t p{color:var(--graphite);line-height:1.5;max-width:50ch}
+.obra .dato{margin-top:24px;font-size:var(--t15);color:var(--mist);text-transform:uppercase;letter-spacing:.5px}
+
+.shots{margin-top:56px}
+.shots figure{margin:0;overflow:hidden;background:var(--linen)}
+.shots img{width:100%;height:100%;object-fit:cover;display:block;filter:contrast(.88) saturate(.75) sepia(.08) brightness(.95)}
+.shots .big{grid-column:1/6;aspect-ratio:3/2;position:relative}
+.shots .big i{position:absolute;top:0;bottom:0;border-left:1px solid rgba(255,255,255,.4)}
+.mini{display:grid;grid-template-columns:repeat(4,1fr);grid-column:2/6;margin-top:2px;gap:2px}
+.mini figure{aspect-ratio:4/3}
+.obra .cierre{grid-column:1/6;height:var(--gap)}
+
+.volver{grid-column:2/5;padding:var(--gap) 12px;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center;border-top:1px solid var(--ink)}
+.volver p{font:400 var(--t32)/1.15 var(--serif);max-width:20ch}
+.volver a{border:1px solid var(--ink);padding:14px 24px;font:600 var(--t15) var(--sans);text-transform:uppercase;letter-spacing:.4px;white-space:nowrap}
+.volver a:hover{background:var(--ink);color:var(--canvas)}
+
+@media (max-width:760px){
+  .phead{padding:48px 0 32px}
+  .phead h1,.phead .lead,.phead .label{grid-column:1/-1!important;padding:0 10px}
+  .indice{grid-column:1/-1;grid-template-columns:1fr;margin-top:48px}
+  .obra{padding:48px 0 0}
+  .obra .num{grid-column:1/-1!important;padding:0 10px;font-size:var(--t32);margin-bottom:12px}
+  .obra .t{grid-column:1/-1!important;padding:0 10px}
+  .obra h2,.obra .t p{max-width:none}
+  .shots{margin-top:32px}
+  .shots .big{grid-column:1/-1!important;aspect-ratio:4/3}
+  .shots .big i{display:none}
+  .mini{grid-column:1/-1!important;grid-template-columns:1fr 1fr}
+  .obra .cierre{height:48px}
+  .volver{grid-column:1/-1!important;padding:40px 10px}
+  .volver p{font-size:26px}
+}

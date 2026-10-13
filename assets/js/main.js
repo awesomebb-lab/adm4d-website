@@ -1,9 +1,11 @@
 (function(){var s=document.getElementById('sticky'),h=document.querySelector('.hero');
+if(!s||!h)return;
 function f(){s.classList.toggle('on',window.scrollY>h.offsetHeight+40)}addEventListener('scroll',f,{passive:true});f()})();
 
 (function(){var M=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
 var now=new Date(),y=now.getFullYear(),m=now.getMonth(),sel=null,slot=null;
 var days=document.getElementById('days'),name=document.getElementById('mname'),slots=document.getElementById('slots'),book=document.getElementById('book');
+if(!days||!name||!slots||!book)return;
 function draw(){name.textContent=M[m]+' '+y;days.innerHTML='';var first=new Date(y,m,1),off=(first.getDay()+6)%7,n=new Date(y,m+1,0).getDate();
 for(var i=0;i<off;i++)days.appendChild(document.createElement('span'));
 for(var d=1;d<=n;d++){var b=document.createElement('button');b.type='button';b.textContent=d;var dt=new Date(y,m,d),wd=dt.getDay();

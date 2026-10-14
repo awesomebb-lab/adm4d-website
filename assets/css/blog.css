@@ -98,3 +98,42 @@
 .art .hero i{display:none}
 .bnav{border-bottom:var(--rail)}
 .bnav>*{border-left:0}
+
+/* ===== VISTA PRELIMINAR: sin líneas finas ===== */
+.bnav{border-bottom:0}
+.posts{border-top:0}
+.post{border-bottom:0;padding:40px 0}
+.datos{border-top:0}
+.datos dl>div{border-bottom:0;padding:8px 0}
+.art table th{border-bottom:0}
+.art th,.art td{border-bottom:0;padding:8px}
+.faq{border-top:0}
+.art .side li{border-top:0;padding:5px 0}
+
+
+/* ===== COLUMNA FIJA: layout móvil en todos los anchos ===== */
+.datos{margin:32px 0 8px}.datos dd{font-size:17px}
+.art .body figure{margin:28px 0 32px}.art .body figure figcaption,.art .body ol,.aviso{max-width:none}
+
+  .art .side li a{display:block;padding:6px 0}
+  .faq h3{margin-top:28px}
+  .bhead{padding:40px 0 32px}
+  .bhead h1,.bhead p,.bhead .label{grid-column:1/-1!important;padding:0 10px}
+  .post{grid-column:1/-1!important;grid-template-columns:1fr;padding:24px 0}
+  .post .thumb,.post .txt,.post .meta{grid-column:1/-1!important;padding:0 10px;text-align:left}
+  .post .thumb div{aspect-ratio:16/10;margin-bottom:16px}
+  .post .meta{margin-top:12px}
+  .post h2,.post p{max-width:none}
+  .art .body,.art .side,.cta-box,.artmeta{grid-column:1/-1!important;padding:0 10px}
+  .art .side{position:static;margin:32px 0 0;border-top:var(--rail);padding-top:20px}
+  .art .body p,.art .body li,.art table,.answer,.faq{max-width:none}
+  .art .hero{aspect-ratio:16/10}
+  .cta-box{margin:40px 0 0;padding:24px 16px}
+  .cta-box p{font-size:26px}
+
+
+/* medida de lectura en pantallas grandes */
+@media (min-width:700px){
+  .art .body p,.art .body ul,.art .body figure figcaption,.answer,.faq,.art table{max-width:64ch}
+  .bhead p,.post p{max-width:58ch}
+}

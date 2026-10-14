@@ -52,3 +52,31 @@
   .volver{grid-column:1/-1!important;padding:40px 10px}
   .volver p{font-size:26px}
 }
+
+/* ===== VISTA PRELIMINAR: sin líneas finas ===== */
+.indice{border-top:0}
+.indice a{border-bottom:0;padding:10px 12px}
+.obra+.obra{border-top:0}
+.shots .big i{display:none}
+.volver{border-top:0}
+
+
+/* ===== COLUMNA FIJA: layout móvil en todos los anchos ===== */
+
+  .phead{padding:48px 0 32px}
+  .phead h1,.phead .lead,.phead .label{grid-column:1/-1!important;padding:0 10px}
+  .indice{grid-column:1/-1;grid-template-columns:1fr;margin-top:48px}
+  .obra{padding:48px 0 0}
+  .obra .num{grid-column:1/-1!important;padding:0 10px;font-size:var(--t32);margin-bottom:12px}
+  .obra .t{grid-column:1/-1!important;padding:0 10px}
+  .obra h2,.obra .t p{max-width:none}
+  .shots{margin-top:32px}
+  .shots .big{grid-column:1/-1!important;aspect-ratio:4/3}
+  .shots .big i{display:none}
+  .mini{grid-column:1/-1!important;grid-template-columns:1fr 1fr}
+  .obra .cierre{height:48px}
+  .volver{grid-column:1/-1!important;padding:40px 10px}
+  .volver p{font-size:26px}
+
+
+@media (min-width:700px){.phead .lead,.obra .t p{max-width:62ch}.phead h1,.obra h2{max-width:18ch}}

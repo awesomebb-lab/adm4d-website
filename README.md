@@ -39,7 +39,7 @@ git push -u origin main
 3. En GitHub: **Settings → Pages → Source: Deploy from a branch → main / (root)**.
 4. El sitio queda en `https://USUARIO.github.io/adm4d-web/`.
 
-Para un dominio propio (adm4d.com), agregar el dominio en Settings → Pages y crear
+Para un dominio propio (www.adm4d.pro), agregar el dominio en Settings → Pages y crear
 el registro DNS que GitHub indique. Netlify o Vercel también sirven: arrastrar la
 carpeta basta, no hay paso de compilación.
 
@@ -48,7 +48,7 @@ carpeta basta, no hay paso de compilación.
 - `assets/img/*.jpg` — fotografías reales de obra, recortadas desde los originales
   en Google Drive (Adm 4D/Imagenes). Para cambiar una, reemplace el archivo
   conservando el mismo nombre; no hay que tocar el HTML.
-- Correo `hola@adm4d.com` y teléfono `+507 6000-0000` en `index.html`.
+- Correo `hola@adm4d.pro` y teléfono `+507 6000-0000` en `index.html`.
 - Nombres, años y metros de los cuatro proyectos.
 - Enlaces de Instagram y LinkedIn en el pie.
 - El calendario abre el correo con la fecha y hora elegidas. Para reuniones

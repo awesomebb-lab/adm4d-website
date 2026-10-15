@@ -24,24 +24,24 @@
 - Levantamiento de avance con dron y tablero digital semanal para el equipo del cliente.
 
 ## Proyectos ejecutados
-Página con fotografías de cada obra: https://adm4d.com/proyectos/
+Página con fotografías de cada obra: https://www.adm4d.pro/proyectos/
 
-- Petroport: pavimentación en concreto del patio de maniobras de una terminal de combustible. Cinco sectores, nueve meses, sin interrumpir el despacho. Losa de 20 cm, concreto de 4 000 psi, apertura a tránsito a los 28 días.
+- Petroport: pavimentación en concreto del patio de maniobras de una terminal de combustible. Cinco sectores, nueve meses, sin interrumpir el despacho. Losa de 20 cm en concreto especificado a flexión, módulo de rotura 650 psi, apertura a tránsito a los 28 días.
 - Planta de gas: plataforma y edificios.
 - GNL: patio de carga y losas.
-- Tropigas: muro de contención de 7 m con geomembrana y montaje de un tanque de GLP de 10 000 galones; 20 días de obra civil antes del izaje.
-- Estabilización de suelos: cinco plataformas de trabajo en dos meses, con geocelda de 20 cm rellena de matacán y capa base, para evitar el hundimiento de equipos de construcción.
+- Tropigas: muro de contención de 7 m de altura en concreto vaciado en formaleta y bases de carga para el montaje de un tanque de GLP de 10 000 galones; 20 días de obra civil antes del izaje.
+- Estabilización de suelos: cinco plataformas de trabajo sobre micropilotes en dos meses, con geocelda de 20 cm rellena con material de capa base, para evitar el hundimiento de equipos de construcción.
 - Bambito: nave industrial de 800 m² con cubierta a dos aguas, losa de 20 cm en concreto de 4 000 psi, muro perimetral para andén a nivel de carga y piso epóxico aplicado a los 45 días del vaciado.
 - La Cholita: planta de producción.
 - Tratamiento de agua: montaje de sistema.
 - Trenco: obra comercial.
 
 ## Notas técnicas
-- [Pavimentar el patio de una terminal de combustible sin detener el despacho](https://adm4d.com/blog/pavimento-concreto-terminal-combustible/): sectorización y vaciado por paños alternos, permisos de trabajo y trabajo en caliente para el aserrado de juntas, secuencia constructiva por sector, y apertura a tránsito definida por módulo de rotura y no por calendario.
-- [Montaje de un tanque de GLP: la obra civil que va antes de la grúa](https://adm4d.com/blog/obra-civil-montaje-tanque-glp/): ubicación según distancias de NFPA 58, muro de contención con geomembrana y drenaje de trasdós, cama de apoyo y silletas niveladas entre sí, plan de izaje por capacidad al radio de trabajo.
-- [Qué exige una plataforma para grúas de alto tonelaje](https://adm4d.com/blog/plataforma-para-gruas-alto-tonelaje/): el dato de diseño es la reacción máxima por estabilizador y no el peso total de la grúa; sustitución de suelo, geotextil de separación frente a geomalla de refuerzo, y control por densidad y placa de carga.
-- [Piso epóxico en nave industrial: lo que decide el resultado está en la losa](https://adm4d.com/blog/piso-epoxico-nave-industrial/): medición de humedad por cloruro de calcio o sonda de humedad relativa, granallado frente a ataque ácido, perfil de anclaje ICRI y por qué las juntas de contracción se respetan en lugar de cubrirse.
+- [Pavimentar el patio de una terminal de combustible sin detener el despacho](https://www.adm4d.pro/blog/pavimento-concreto-terminal-combustible/): sectorización y vaciado por paños alternos, permisos de trabajo y trabajo en caliente para el corte de juntas, secuencia constructiva por sector, y apertura a tránsito definida por módulo de rotura y no por calendario.
+- [Montaje de un tanque de GLP: la obra civil que va antes de la grúa](https://www.adm4d.pro/blog/obra-civil-montaje-tanque-glp/): ubicación según distancias de NFPA 58, muro de contención ejecutado antes del montaje, cama de apoyo y silletas niveladas entre sí, plan de izaje por capacidad al radio de trabajo.
+- [Qué exige una plataforma para grúas de alto tonelaje](https://www.adm4d.pro/blog/plataforma-para-gruas-alto-tonelaje/): el dato de diseño es la reacción máxima por estabilizador y no el peso total de la grúa; sustitución de suelo, geotextil de separación frente a geomalla de refuerzo, y control por densidad y placa de carga.
+- [Piso epóxico en nave industrial: lo que decide el resultado está en la losa](https://www.adm4d.pro/blog/piso-epoxico-nave-industrial/): medición de humedad por cloruro de calcio o sonda de humedad relativa, granallado frente a ataque ácido, perfil de anclaje ICRI y por qué las juntas de contracción se respetan en lugar de cubrirse.
 
 ## Contacto
-- Correo: hola@adm4d.com
+- Correo: hola@adm4d.pro
 - Cobertura: Colón, Ciudad de Panamá, Panamá Oeste

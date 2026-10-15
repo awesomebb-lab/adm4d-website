@@ -16,7 +16,7 @@ document.getElementById('prev').onclick=function(){m--;if(m<0){m=11;y--}draw()};
 slots.querySelectorAll('button').forEach(function(b){b.addEventListener('click',function(){slot=b.textContent;slots.querySelectorAll('button').forEach(function(x){x.classList.remove('sel')});b.classList.add('sel');book.classList.add('on')})});
 book.addEventListener('submit',function(ev){ev.preventDefault();var n=book.n.value.trim(),e=book.e.value.trim();if(!n||!e||!sel||!slot)return;
 var when=sel.getDate()+' de '+M[sel.getMonth()]+' de '+sel.getFullYear()+', '+slot;
-location.href='mailto:hola@adm4d.com?subject='+encodeURIComponent('Reunión de 15 min — '+n)+'&body='+encodeURIComponent('Nombre: '+n+'\nCorreo: '+e+'\nFecha: '+when+'\n\nSolicito una videollamada de 15 minutos.')});
+location.href='mailto:hola@adm4d.pro?subject='+encodeURIComponent('Reunión de 15 min — '+n)+'&body='+encodeURIComponent('Nombre: '+n+'\nCorreo: '+e+'\nFecha: '+when+'\n\nSolicito una videollamada de 15 minutos.')});
 draw()})();
 
 (function(){var b=document.getElementById('menuBtn'),m=document.getElementById('navmenu');
